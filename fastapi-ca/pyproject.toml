@@ -1,0 +1,18 @@
+[project]
+name = "fastapi-ca"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "khs",email = "hs.kwan@okestro.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.136.0,<0.137.0)",
+    "uvicorn[standard] (>=0.44.0,<0.45.0)",
+    "py-ulid (>=1.0.3,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
